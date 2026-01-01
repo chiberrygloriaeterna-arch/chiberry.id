@@ -1,184 +1,31 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chiberry - Sari Buah & Cuka Buah Alami Kota Batu</title>
-    <meta name="description" content="Produsen Cuka Apel, Cuka Strawberry, Cuka Anggur, dan Sari Buah Strawberry asli dari Kota Batu. Chiberry Gloria Eterna.">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Poppins', 'sans-serif'],
-                    },
-                    colors: {
-                        brand: {
-                            green: '#4ade80',  // Hijau Segar
-                            dark: '#166534',   // Hijau Daun Tua
-                            red: '#e11d48',    // Merah Strawberry (Accent)
-                            bg: '#fdf2f8'      // Pink Tipis (Background halus)
-                        }
-                    }
-                }
-            }
-        }
-    </script>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body class="bg-gray-50 text-gray-800">
-
-    <nav class="bg-white shadow-sm fixed w-full z-50 top-0 transition-all duration-300">
-        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-            <div class="flex items-center">
-                <img src="images/logo-fix-chiberry-transparant.webp" alt="Logo Chiberry" class="h-12 w-auto mr-2">
-                <span class="text-xl font-bold text-brand-dark tracking-tight hidden md:block">CHIBERRY</span>
-            </div>
+<footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-4 gap-8">
             
-            <a href="#produk" class="bg-brand-red text-white px-5 py-2 rounded-full font-semibold hover:bg-rose-700 transition shadow-md">
-                <i class="fas fa-shopping-bag mr-1"></i> Katalog
-            </a>
-        </div>
-    </nav>
-
-    <section class="pt-32 pb-20 px-4 bg-gradient-to-b from-brand-bg to-white">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
-            <div class="md:w-1/2 text-center md:text-left">
-                <span class="bg-rose-100 text-brand-red px-4 py-1 rounded-full text-sm font-semibold mb-4 inline-block border border-rose-200">
-                    <i class="fas fa-map-marker-alt mr-1"></i> Asli Kota Batu
-                </span>
-                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 text-gray-900">
-                    The Art of <span class="text-brand-red">Healthy Lifestyle</span> <br>
-                    with <span class="text-brand-dark">Natural Fruits.</span>
-                </h1>
-                <p class="text-lg text-gray-600 mb-8 leading-relaxed">
-                    Nikmati kebaikan fermentasi alami dari Cuka Apel, Anggur, & Strawberry pilihan. Solusi tepat untuk detoks dan imunitas tubuh Anda.
-                </p>
-                <div class="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
-                    <a href="https://wa.me/6282257687345?text=Halo%20Chiberry,%20saya%20tertarik%20dengan%20produk%20Anda" class="bg-brand-dark text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition transform flex items-center justify-center">
-                        <i class="fab fa-whatsapp mr-2 text-xl"></i> Pesan via WA
-                    </a>
-                    <a href="#manfaat" class="bg-white text-brand-dark border border-brand-dark px-8 py-3 rounded-full font-semibold hover:bg-gray-50 transition flex items-center justify-center">
-                        Pelajari Manfaat
-                    </a>
-                </div>
-            </div>
-            <div class="md:w-1/2 relative">
-                <img src="images/cuka-stroberi-1.webp" 
-                     alt="Cuka Strawberry Chiberry" 
-                     class="rounded-3xl shadow-2xl w-full object-cover h-[400px] md:h-[500px] border-4 border-white">
-                
-                <div class="absolute -bottom-6 -right-4 bg-white p-4 rounded-xl shadow-lg flex items-center gap-3 animate-bounce">
-                    <div class="bg-brand-red p-3 rounded-full text-white">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <div>
-                        <p class="font-bold text-gray-900">Tanpa Pengawet</p>
-                        <p class="text-xs text-gray-500">100% Alami</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="manfaat" class="py-20 bg-white">
-        <div class="max-w-6xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-12 text-gray-900">Mengapa Memilih <span class="text-brand-red">Chiberry</span>?</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="p-6 rounded-2xl bg-brand-bg hover:-translate-y-2 transition duration-300 border border-rose-100">
-                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm text-2xl text-brand-red">
-                        <i class="fas fa-flask"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Fermentasi Sempurna</h3>
-                    <p class="text-gray-600">Mengandung "The Mother" (inang cuka) yang kaya enzim dan probiotik untuk kesehatan pencernaan.</p>
-                </div>
-                <div class="p-6 rounded-2xl bg-green-50 hover:-translate-y-2 transition duration-300 border border-green-100">
-                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm text-2xl text-brand-dark">
-                        <i class="fas fa-mountain"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Buah Segar Kota Batu</h3>
-                    <p class="text-gray-600">Diproduksi di Kota Batu yang sejuk, menggunakan buah apel dan strawberry lokal berkualitas premium.</p>
-                </div>
-                <div class="p-6 rounded-2xl bg-brand-bg hover:-translate-y-2 transition duration-300 border border-rose-100">
-                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm text-2xl text-brand-red">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Murni Tanpa Kimia</h3>
-                    <p class="text-gray-600">Diproses secara higienis oleh Chiberry Gloria Eterna tanpa tambahan gula berlebih atau bahan kimia.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="produk" class="py-20 bg-gray-50">
-        <div class="max-w-5xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-12 text-center">Produk Unggulan Kami</h2>
-            
-            <div class="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col md:flex-row mb-10 border border-gray-100">
-                <div class="md:w-2/5 h-64 md:h-auto relative bg-gray-100">
-                     <img src="https://images.unsplash.com/photo-1568909344668-6f14a07b56a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="absolute inset-0 w-full h-full object-cover" alt="Cuka Buah Chiberry">
-                </div>
-                <div class="md:w-3/5 p-8 flex flex-col justify-center">
-                    <div class="uppercase tracking-wide text-sm text-brand-red font-bold">Best Seller - Detoks & Diet</div>
-                    <h3 class="mt-1 text-2xl font-bold text-gray-900">Varian Cuka Buah (Vinegar)</h3>
-                    <p class="mt-2 text-gray-600">Tersedia dalam 3 varian rasa alami dengan khasiat luar biasa:</p>
-                    <ul class="mt-3 space-y-1 text-gray-600">
-                        <li><i class="fas fa-check text-brand-green mr-2"></i> <strong>Cuka Apel (Apple Vinegar)</strong> - Klasik & Ampuh</li>
-                        <li><i class="fas fa-check text-brand-green mr-2"></i> <strong>Cuka Strawberry</strong> - Aroma Harum & Segar</li>
-                        <li><i class="fas fa-check text-brand-green mr-2"></i> <strong>Cuka Anggur</strong> - Tinggi Antioksidan</li>
-                    </ul>
-                    <a href="https://wa.me/6282257687345?text=Halo%20Chiberry,%20saya%20mau%20pesan%20Cuka%20Buah" class="mt-6 bg-brand-dark text-white py-3 px-6 rounded-lg font-semibold text-center hover:bg-green-800 transition shadow-md">
-                        Pesan Cuka Sekarang
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col md:flex-row border border-gray-100">
-                <div class="md:w-2/5 h-64 md:h-auto relative bg-gray-100">
-                     <img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="absolute inset-0 w-full h-full object-cover" alt="Sari Buah Strawberry">
-                </div>
-                <div class="md:w-3/5 p-8 flex flex-col justify-center">
-                    <div class="uppercase tracking-wide text-sm text-brand-red font-bold">Vitamin Booster</div>
-                    <h3 class="mt-1 text-2xl font-bold text-gray-900">Sari Buah Strawberry</h3>
-                    <p class="mt-2 text-gray-600">Ekstrak murni strawberry segar Kota Batu. Rasanya manis asam alami yang menyegarkan dahaga sekaligus memberi asupan Vitamin C harian.</p>
-                    <div class="mt-4 flex items-center gap-2">
-                        <span class="px-3 py-1 bg-rose-100 text-rose-600 rounded-full text-xs font-bold">Tanpa Pemanis Buatan</span>
-                        <span class="px-3 py-1 bg-rose-100 text-rose-600 rounded-full text-xs font-bold">Fresh</span>
-                    </div>
-                    <a href="https://wa.me/6282257687345?text=Halo%20Chiberry,%20saya%20mau%20pesan%20Sari%20Buah%20Strawberry" class="mt-6 bg-brand-red text-white py-3 px-6 rounded-lg font-semibold text-center hover:bg-rose-700 transition shadow-md">
-                        Pesan Sari Buah
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <footer class="bg-gray-900 text-white pt-16 pb-8">
-        <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between gap-10">
-            <div class="md:w-1/3">
+            <div class="md:col-span-1">
                 <div class="flex items-center mb-4">
                     <img src="images/logo-fix-chiberry-transparant.webp" alt="Logo Footer" class="h-10 w-auto mr-2 grayscale brightness-200">
                     <h4 class="text-2xl font-bold">CHIBERRY</h4>
                 </div>
-                <p class="text-gray-400 text-sm mb-4">
-                    Perusahaan : Chiberry Gloria Eterna<br>
+                <p class="text-gray-400 text-sm mb-4 leading-relaxed">
+                    Produsen Cuka dan Sari Buah.<br>
                     Menghadirkan kebaikan buah alami dalam setiap tetesnya untuk kesehatan keluarga Indonesia.
                 </p>
+                <div class="flex gap-4 mt-4">
+                    <a href="https://instagram.com/chiberry.official" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-brand-red transition text-white">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://tiktok.com/@chiberry.kotabatu" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-brand-red transition text-white">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
             </div>
             
-            <div class="md:w-1/3">
-                <h4 class="text-xl font-bold mb-4 text-brand-green">Hubungi Kami</h4>
+            <div class="md:col-span-1">
+                <h4 class="text-xl font-bold mb-4 text-brand-green">Kontak</h4>
                 <ul class="text-gray-400 text-sm space-y-3">
                     <li class="flex items-start">
                         <i class="fas fa-map-marker-alt mt-1 mr-3 text-brand-red"></i>
-                        <span>Jl. Sudiro No.474B/03, Sisir,<br>Kota Batu, Jawa Timur</span>
+                        <span>Jl. Sudiro No.474B 03, Sisir,<br>Kec. Batu, Kota Batu,<br>Jawa Timur 65314</span>
                     </li>
                     <li class="flex items-center">
                         <i class="fab fa-whatsapp mr-3 text-brand-red"></i>
@@ -191,30 +38,29 @@
                 </ul>
             </div>
 
-            <div class="md:w-1/3">
-                <h4 class="text-xl font-bold mb-4 text-brand-green">Ikuti Kami</h4>
-                <div class="flex gap-4">
-                    <a href="https://instagram.com/chiberry.official" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-brand-red transition text-white">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://tiktok.com/@chiberry.kotabatu" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-brand-red transition text-white">
-                        <i class="fab fa-tiktok"></i>
+            <div class="md:col-span-2">
+                <h4 class="text-xl font-bold mb-4 text-brand-green">Lokasi Kami</h4>
+                <div class="w-full rounded-xl overflow-hidden shadow-lg border border-gray-700 h-64 bg-gray-800 relative">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.217193090405!2d112.52357087506468!3d-7.872327792149862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78818e7dda86fb%3A0xf9a5dcc1b4a59436!2sChiberry.Official!5e0!3m2!1sen!2sid!4v1767263602386!5m2!1sen!2sid" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="mt-2 text-right">
+                    <a href="https://maps.app.goo.gl/fYbfSWsu8kJ9Qir3A" target="_blank" class="text-xs text-brand-green hover:text-brand-red transition">
+                        <i class="fas fa-external-link-alt mr-1"></i> Buka di Google Maps
                     </a>
                 </div>
             </div>
+
         </div>
         
         <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500 text-xs">
             &copy; 2024 Chiberry Gloria Eterna. All rights reserved.
         </div>
     </footer>
-
-    <a href="https://wa.me/6282257687345?text=Halo%20Chiberry..." class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 transition transform hover:scale-110 z-50 flex items-center gap-2 group border-2 border-white">
-        <i class="fab fa-whatsapp text-3xl"></i>
-        <span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap font-bold pl-0 group-hover:pl-2">
-            Chat Admin
-        </span>
-    </a>
-
-</body>
-</html>
