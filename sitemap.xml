@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://chiberry.id/</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    
+    <image:image>
+      <image:loc>https://chiberry.id/images/logo-fix-chiberry-transparant.webp</image:loc>
+      <image:title>Logo Chiberry Produsen Cuka Buah Batu</image:title>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://chiberry.id/images/cuka-stroberi-1.webp</image:loc>
+      <image:title>Cuka Strawberry Alami Chiberry Kota Batu</image:title>
+      <image:caption>Produk unggulan Cuka Strawberry asli dari Chiberry Gloria Eterna</image:caption>
+    </image:image>
+  </url>
+</urlset>
